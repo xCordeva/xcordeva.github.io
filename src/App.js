@@ -5,6 +5,7 @@ import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Education from './Components/Education';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <Element name="contact" className="element">
         <Contact/>
       </Element>
+      <Footer/>
     </div>
   );
 }
