@@ -1,0 +1,45 @@
+.eduction{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10%;
+    padding:10px;
+}
+.eduction h1{
+    font-size: 3rem;
+}
+.eduction h3{
+    color: grey;
+}
+.education-container{
+    margin: 0 auto;
+    margin-bottom: 10%;
+    border-radius: 20px;
+    background-color: hsla(0, 0%, 23%, 0.3);
+    padding:30px;
+    letter-spacing: 2px;
+    line-height: 2;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 3% 0;
+}
+
+@keyframes eductionFloaty {
+    from, to {
+        transform: translateY(-0%);
+      }
+      
+      50% {    
+        transform: translateY(-5%);
+      }
+}
+.eduction .floaty span{
+    display: inline-block;
+}
+.eduction .floaty > .outer > .inner {
+  animation: eductionFloaty 2s ease infinite;
+}

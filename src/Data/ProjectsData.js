@@ -1,0 +1,42 @@
+export const projectsData = [
+    {
+      image: require(`../Data/projects-images/interactive-comments.PNG`),
+      tags: ['React JS', 'React JS', 'React JS'],
+      title: 'Project 1',
+      date: 'Date 1',
+      shortDetails: ' BlaBlaBlaBlaBlaBlaBlaBlaBla BlaBlaBlaBlaBlaBlaBlaBlaBla BlaBlaBlaBlaBlaBlaBlaBlaBla',
+      fullDetails: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit aspernatur numquam a id quaerat, nisi aut eum repellendus placeat dolorem magna',
+    },
+    {
+      image: require(`../Data/projects-images/interactive-comments.PNG`),
+      tags: ['React JS', 'React JS', 'React JS'],
+      title: 'Project 1',
+      date: 'Date 1',
+      shortDetails: 'BlaBlaBlaBlaBlaBlaBlaBlaBla',
+      fullDetails: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit aspernatur numquam a id quaerat, nisi aut eum repellendus placeat dolorem magna',
+    },
+    {
+      image: require(`../Data/projects-images/interactive-comments.PNG`),
+      tags: ['React JS', 'React JS', 'React JS'],
+      title: 'Project 1',
+      date: 'Date 1',
+      shortDetails: 'BlaBlaBlaBlaBlaBlaBlaBlaBla',
+      fullDetails: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit aspernatur numquam a id quaerat, nisi aut eum repellendus placeat dolorem magna',
+    },
+    {
+      image: require(`../Data/projects-images/interactive-comments.PNG`),
+      tags: ['React JS', 'React JS', 'React JS'],
+      title: 'Project 1',
+      date: 'Date 1',
+      shortDetails: 'BlaBlaBlaBlaBlaBlaBlaBlaBla',
+      fullDetails: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit aspernatur numquam a id quaerat, nisi aut eum repellendus placeat dolorem magna',
+    },
+    {
+      image: require(`../Data/projects-images/interactive-comments.PNG`),
+      tags: ['React JS', 'React JS', 'React JS'],
+      title: 'Project 1',
+      date: 'Date 1',
+      shortDetails: 'BlaBlaBlaBlaBlaBlaBlaBlaBla',
+      fullDetails: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit aspernatur numquam a id quaerat, nisi aut eum repellendus placeat dolorem magna',
+    },
+  ];

@@ -1,0 +1,87 @@
+.nav-container{
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+}
+.navbar{
+    display: flex;
+    z-index: 999;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--navbar-text-color);
+    width: 100%;
+    background-color: transparent;
+    white-space: nowrap;
+    height: 100px;
+    color: white;
+    font-weight: 700;
+    position: fixed;
+    transition:background-color 0.5s linear, color 0.5s ease;
+}
+.transparent{
+    background-color: hsla(0, 0%, 0% , 0.8);
+}
+.navbar a{
+    text-decoration: none;
+}
+.navbar nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+.navbar nav a{
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.navbar nav a:hover{
+    color: #ff0084;
+}
+.navbar .nav-button{
+    margin: 0 10%;
+    cursor: pointer;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff0084;
+    border: 3px solid #ff0084;
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 10px 20px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 0 10px #ff0084;
+}
+.navbar svg{
+    color: #ff0084;
+    margin-right: 5px;
+    transition: all 0.4s ease-in-out;
+}
+.navbar .nav-button:hover, .nav-button:hover{
+    background-color: #ff0084;
+    animation: jump 1s ease infinite;
+    color: white;
+}
+.nav-button:hover svg{
+    color: white;
+}
+
+@keyframes jump {
+    25%{
+      transform: translateY(25%);
+      rotate: 3deg;
+    }
+    50%{
+      transform: translateY(0%);
+    }
+    75%{
+      transform: translateY(10%);
+      rotate: -3deg;
+    }
+    100%{
+      transform: translateY(0%);
+    }
+  }
+
