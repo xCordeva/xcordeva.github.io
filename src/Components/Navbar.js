@@ -37,10 +37,10 @@ export default function Navbar() {
         </a>
         <nav>
           <Link to="about" smooth={true} duration={750}>About</Link>
-          <Link to='skills' smooth={true} duration={750}>Skills</Link>
-          <Link to='projects' smooth={true} duration={750}>Projects</Link>
-          <Link to='eduction' smooth={true} duration={750}>Eduction</Link>
-          <Link to='contact' smooth={true} duration={750}>Contact</Link>
+          <Link to="skills" smooth={true} duration={750}>Skills</Link>
+          <Link to="projects" smooth={true} duration={750}>Projects</Link>
+          <Link to="education" smooth={true} duration={750}>Education</Link>
+          <Link to="contact" smooth={true} duration={750}>Contact</Link>
         </nav>
         <a className='nav-button' href='https://github.com/xCordeva' target='_blank'>
         <FontAwesomeIcon icon={faGithub}/>

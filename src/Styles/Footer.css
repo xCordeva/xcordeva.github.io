@@ -1,0 +1,95 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    
+}
+.arrow{
+    position: absolute ;
+    right: 5%;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    transition: all 0.5s ease;
+    animation: up 1s linear infinite;
+}
+.arrow:hover{
+    scale: 1.1;
+}
+@keyframes up {
+    from, to {
+      transform: translateY(0%);
+    }
+    50% {    
+      transform: translateY(15%);
+    }
+}
+.footer svg{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 10px #ff0084;
+    color: #ff0084;
+    transition: all 0.5s ease;
+}
+.footer .svg-linkedin{
+    width: 30px;
+    height: 30px;
+    background-color: #ff0084;
+    padding: 10px;
+    border-radius: 50%;
+}
+.footer svg{
+    animation: floaty 5s linear infinite;
+}
+.footer .svg-linkedin{
+    animation: reverseFooterFloaty 5s linear infinite;
+}
+.footer svg:hover {
+    scale: 1.1;
+    animation: rotate 3s linear infinite;
+}
+.credit{
+    margin: 0;
+    color: grey;
+    font-size: 18px;
+    font-weight: 800;
+}
+@keyframes reverseFooterFloaty {
+    from, to {
+      transform: translateY(-13%);
+    }
+    50% {    
+      transform: translateY(-0%);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(15deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-15deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}

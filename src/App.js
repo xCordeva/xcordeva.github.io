@@ -21,7 +21,7 @@ function App() {
       <Element name="projects" className="element">
         <Projects/>
       </Element>
-      <Element name="eduction" className="element">
+      <Element name="education" className="element">
         <Education/>
       </Element>
       <Element name="contact" className="element">
