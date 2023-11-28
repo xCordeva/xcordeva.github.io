@@ -31,5 +31,10 @@
 #education-text{
     white-space: wraps;
 }
+@media (max-width:800px) {
+    .education-container{
+        padding:10px;
+    }
+}
 
 
