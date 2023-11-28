@@ -35,7 +35,7 @@ export default function FullScreenProject() {
         </div>
 
         <h2>{project.title}</h2>
-        <h5 className='projec-date'>{project.date}</h5>
+        <h5 className='project-date'>{project.date}</h5>
         <p>{project.details}</p>
 
         <div className="project-links">
