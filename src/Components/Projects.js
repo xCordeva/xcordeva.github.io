@@ -27,9 +27,12 @@ export default function Projects() {
 
   return (
     <div className="projects">
+
       <h1 id='projects-h1' className='floaty'>Projects</h1>
       <h3 id='projects-h3' className='floaty'>Some of the projects I have created.</h3>
+
       <div className="projects-contianer">
+        
         {projectsData.map((project, index)=>(
           <div 
             className="project"
@@ -43,15 +46,18 @@ export default function Projects() {
             ))}
             </div>
             <h2>{project.title}</h2>
-            <h5 className='projec-date'>{project.date}</h5>
+            <h5 className='project-date'>{project.date}</h5>
             <p className='project-details'>{project.details}</p>
           </div>
         ))}
+
         <FullScreenProject />
       </div>
+
       <div className="rocket">
-          <img src={require(`../images/rocket.gif`)}  alt="rocket" />
-        </div>
+        <img src={require(`../images/rocket.gif`)}  alt="rocket" />
+      </div>
+
     </div>
   )
 }

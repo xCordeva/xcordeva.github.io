@@ -15,13 +15,14 @@ export default function Contact() {
     const [slideOut, setSlideOut] = useState(false)
     const [state, handleSubmit] = useForm("xgejbjny");
 
+    /* if the message is sent set the states to show the thank you message */
     useEffect(() => {
         if (state.succeeded) {
             setMessageSent(true);
 
             setTimeout(() => {
                 setSlideOut(true)
-            }, 1500)
+            }, 1000)
 
             setTimeout(() => {
                 setShowThanks(true)
@@ -32,7 +33,9 @@ export default function Contact() {
     
   return ( 
     <div className='contact'>
+
         <h1 id='contact-h1' className='floaty'>Contact</h1>
+
         {showThanks ? (
             <div className="thank-you">
             <h1>Thank you for reaching out. I'll get back to you soon!</h1>
@@ -40,7 +43,9 @@ export default function Contact() {
         ) : (
             <h2 id='contact-h2' className='floaty'>Send me an email!</h2>
         )}
+
         <div className="contact-container">
+
             <div 
             className={`env ${slideOut ? 'message-sent-full-env' : ''}`}
             style={{display: `${showThanks ? 'none': ''}`,}}
@@ -50,6 +55,7 @@ export default function Contact() {
                 <img className={`env-back ${messageSent ? 'message-sent' : ''}`} src={require(`../images/env-back.png`)} alt="" />
                 <img className={`env-cover ${messageSent ? 'message-sent-cover' : ''}`} src={require(`../images/env-cover.png`)} alt="" />
             </div>
+
             <form 
             className={`contact-form 
             ${messageSent ? 'message-sent-form' : ''}
@@ -69,21 +75,18 @@ export default function Contact() {
                     field="message"
                     errors={state.errors}
                 />
-                <div className="leave-a-comment">
+                <div className="send-a-message">
                     <button disabled={state.submitting}><span>SEND MESSAGE</span>
                     <FontAwesomeIcon icon={faRocket} style={{color: "#ffffff",}} /></button>
                 </div>
             </form>
+
         </div>
+
         <div className="flying-astronaut">
                 <img src={require(`../images/flying-astronaut.png`)}  alt="" />
         </div>
+
     </div>
   )
 }
-
-
-
-
-
-    

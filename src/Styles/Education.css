@@ -1,13 +1,9 @@
 .eduction{
-    width: 100%;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin-bottom: 10%;
     padding:10px;
-    max-width: 1400px;
 }
 .eduction h1{
     font-size: 3rem;
@@ -16,8 +12,6 @@
     color: grey;
 }
 .education-container{
-    margin: 0 auto;
-    margin-bottom: 10%;
     border-radius: 20px;
     background-color: hsla(0, 0%, 23%, 0.3);
     padding:20px;
@@ -28,13 +22,8 @@
     margin: 3% 0;
     text-align: center;
 }
-#education-text{
-    white-space: wraps;
-}
 @media (max-width:800px) {
     .education-container{
         padding:10px;
     }
 }
-
-

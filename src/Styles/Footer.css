@@ -9,7 +9,6 @@
 }
 .footer{
     height: 150px;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,9 +24,6 @@
     animation: up 1s linear infinite;
     z-index: 10;
 }
-.arrow:hover{
-    scale: 1.1;
-}
 @keyframes up {
     from, to {
       transform: translateY(0%);
@@ -35,6 +31,9 @@
     50% {    
       transform: translateY(15%);
     }
+}
+.arrow:hover{
+    scale: 1.1;
 }
 .footer svg{
     cursor: pointer;
@@ -64,12 +63,6 @@
     scale: 1.1;
     animation: rotate 3s linear infinite;
 }
-.credit{
-    margin: 0;
-    color: grey;
-    font-size: 18px;
-    font-weight: 800;
-}
 @keyframes reverseFooterFloaty {
     from, to {
       transform: translateY(-13%);
@@ -96,6 +89,15 @@
         transform: rotate(0deg);
     }
 }
+
+.credit{
+    margin: 0;
+    color: grey;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
 @media (max-width:700px) {
     .arrow{
         right: -3%;

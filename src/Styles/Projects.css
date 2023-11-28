@@ -6,7 +6,6 @@
     text-align: center;
     margin-bottom: 10%;
     position: relative;
-    max-width: 1400px;
 }
 .projects h1{
     font-size: 3rem;
@@ -34,20 +33,6 @@
     transition: all 0.5s ease-in-out;
     animation: float 3s ease-in-out infinite;
 }
-.project-details{
-  text-overflow: ellipsis;
-  -webkit-line-clamp: 3;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  text-align: left;
-}
-
-.project:hover{
-    scale: 1.05;
-    box-shadow: hsla(0, 0%, 25%, 0.4) 0px 0px 10px 10px;
-
-}
 @keyframes float {
 	0% {
 		transform: translatey(0px);
@@ -59,7 +44,19 @@
 		transform: translatey(0px);
 	}
 }
-.projec-date{
+.project-details{
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-align: left;
+}
+.project:hover{
+    scale: 1.05;
+    box-shadow: hsla(0, 0%, 25%, 0.4) 0px 0px 10px 10px;
+}
+.project-date{
     margin: 0;
 }
 .projects-contianer img{
@@ -103,7 +100,6 @@ h5{
     overflow-y: auto;
     overflow-x: hidden;
   }
-  /*Needs lots of adjustments for smaller screens*/
   .fullscreen-project {
     background-color: hsl(215, 22%, 10%);
     padding:40px 20px 20px 20px;
@@ -117,7 +113,6 @@ h5{
     align-items: flex-start;
     text-align: left;
   }
-  
   .close-icon {
     cursor: pointer;
     position: absolute;
@@ -130,7 +125,11 @@ h5{
     width: 100%;
     align-self: center;
   }
-  
+  .project-links svg{
+    color: #000044;
+    font-size: 25px;
+    margin-right: 10px;
+  }
 .link-project{
     display: flex;
     align-items: center;
@@ -156,12 +155,8 @@ h5{
     color: hsl(0, 0%, 75%);
     transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
 }
-.project-links svg{
-    color: #000044;
-    font-size: 25px;
-    margin-right: 10px;
-}
 
+/* Flying Rocket */
 .rocket{
     width: 100%;
     top: 0%;
@@ -239,6 +234,7 @@ h5{
     }
   }
 
+
 @media (max-width:800px) {
   .rocket img{
     width: 150px;
@@ -266,5 +262,4 @@ h5{
   .fullscreen-project {
     top: 10%;
   }
-
-}  
+}

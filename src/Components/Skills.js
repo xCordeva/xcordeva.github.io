@@ -7,9 +7,12 @@ export default function Skills() {
 
   return (
     <div className="skills-container">
+
       <h1 id='skills-h1' className='floaty'>Skills</h1>
       <h3>Some of the skills that I have used and implemented on the projects I have made</h3>
+
       <div className="skills">
+
         <div className='skills-box-wraper'>
           <h1>Frontend</h1>
           <div className="skills-frontend">
@@ -43,6 +46,7 @@ export default function Skills() {
             </div>
           </div>
         </div>
+
         <div className='skills-box-wraper'>
           <h1>Others</h1>
           <div className="skills-others">
@@ -64,7 +68,9 @@ export default function Skills() {
             </div>
           </div>
         </div>
+
       </div>
+
     </div>
   )
 }
