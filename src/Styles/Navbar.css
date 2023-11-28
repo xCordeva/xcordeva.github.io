@@ -140,3 +140,10 @@
         transform: translateY(0%);
     }
 }
+@media (max-width:500px) {
+    .navbar .nav-button:nth-child(2){
+        border: 2px solid #ff0084;
+        padding: 5px 20px;
+        margin-bottom: 20px;
+    }
+}
