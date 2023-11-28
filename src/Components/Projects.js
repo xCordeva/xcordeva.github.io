@@ -4,9 +4,13 @@ import { useSelector, useDispatch } from "react-redux"
 import { openFullScreen } from "../Features/ProjectFullScreen";
 import FullScreenProject from './FullScreenProject';
 import { useEffect } from 'react';
+import useAddClasses from '../Custom Hooks/useAddClasses'
 
 
 export default function Projects() {
+
+  useAddClasses('projects-h1')
+  useAddClasses('projects-h3')
 
   const selectedProject = useSelector((state) => state.ProjectFullScreen.value);
   const dispatch = useDispatch()
@@ -23,8 +27,8 @@ export default function Projects() {
 
   return (
     <div className="projects">
-      <h1>Projects</h1>
-      <h3>Some of the projects I have created.</h3>
+      <h1 id='projects-h1' className='floaty'>Projects</h1>
+      <h3 id='projects-h3' className='floaty'>Some of the projects I have created.</h3>
       <div className="projects-contianer">
         {projectsData.map((project, index)=>(
           <div 

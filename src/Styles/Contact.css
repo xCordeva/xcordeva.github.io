@@ -181,13 +181,13 @@
     height: 100%;
     top: 10%;
     right: 1%;
-    animation: astroFly 50s linear infinite;
+    animation: astroFly 35s linear infinite;
   }
   .flying-astronaut img{
     width: 50%;
   }
 
-  @keyframes astroFlyx {
+  @keyframes astroFly {
     0% {
       transform: translateX(0%) translateY(10%) rotate(0deg);
     }
@@ -306,7 +306,7 @@
 }
 @media (max-width:700px) {
   .contact-form{
-    height: 580px;
+    height: 600px;
     padding: 20px;
   }
   .message-sent-form{
@@ -318,7 +318,7 @@
 }
 @media (max-width:600px) {
   .contact-form{
-    height: 510px;
+    height: 550px;
   }
   .leave-a-comment button{
     font-weight: 600;
@@ -334,7 +334,7 @@
   }
   .contact-form{
     width: 90%;
-    height: 520px;
+    height: 550px;
   }
   .leave-a-comment button{
     font-weight: 600;
@@ -349,7 +349,7 @@
 }
 @media (max-width:450px) {
   .contact-form{
-    height: 500px;
+    height: 520px;
   }
   .message-sent-form{
     height: 180px;
@@ -357,7 +357,7 @@
 }
 @media (max-width:425px) {
   .contact-form{
-    height: 475px;
+    height: 510px;
   }
   .message-sent-form{
     height: 160px;
@@ -365,7 +365,7 @@
 }
 @media (max-width:400px) {
   .contact-form{
-    height: 470px;
+    height: 490px;
   }
   .message-sent-form{
     height: 160px;
@@ -376,7 +376,7 @@
 }
 @media (max-width:375px) {
   .contact-form{
-    height: 450px;
+    height: 480px;
   }
   .message-sent-form{
     height: 150px;

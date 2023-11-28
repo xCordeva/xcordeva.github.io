@@ -1,10 +1,15 @@
 import '../Styles/Skills.css';
+import useAddClasses from '../Custom Hooks/useAddClasses'
 
 export default function Skills() {
+
+  useAddClasses('skills-h1')
+  useAddClasses('skills-h3')
+
   return (
     <div className="skills-container">
-      <h1>Skills</h1>
-      <h3>Some of the skills that I have used and implemented on the projects I have made.</h3>
+      <h1 id='skills-h1' className='floaty'>Skills</h1>
+      <h3 id='skills-h3' className='floaty'>Some of the skills that I have used and implemented on the projects I have made.</h3>
       <div className="skills">
         <div className='skills-box-wraper'>
           <h1>Frontend</h1>

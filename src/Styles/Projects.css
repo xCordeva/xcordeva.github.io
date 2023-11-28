@@ -102,7 +102,6 @@ h5{
     justify-content: center;
     overflow-y: auto;
     overflow-x: hidden;
-    
   }
   /*Needs lots of adjustments for smaller screens*/
   .fullscreen-project {
@@ -112,7 +111,6 @@ h5{
     width: 80%;
     top: 10px;
     max-width: 800px;
-    margin: 50px 0;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -166,16 +164,16 @@ h5{
 
 .rocket{
     width: 100%;
-    top: 10%;
+    top: 0%;
     position: absolute;
     z-index: -99;
 }
 .rocket img{
     width: 20%;
-    animation: rocket 50s linear infinite;
+    animation: rocket 40s linear infinite;
 }
 
-@keyframes rocketx {
+@keyframes rocket {
     0% {
       transform: translateX(0%) translateY(0%) rotate(20deg);
     }
@@ -241,7 +239,11 @@ h5{
     }
   }
 
-
+@media (max-width:800px) {
+  .rocket img{
+    width: 150px;
+  }
+}
 @media (max-width:580px) {
   .project-links {
     flex-direction: column;
@@ -249,7 +251,7 @@ h5{
     align-items: center;
   }
   .fullscreen-project {
-    top: 5%;
+    width: 90%;
   }
   .link-project{
     width: 100%;
@@ -260,3 +262,9 @@ h5{
     font-size: 20px;
   }
 }
+@media (max-height:720px) {
+  .fullscreen-project {
+    top: 10%;
+  }
+
+}  

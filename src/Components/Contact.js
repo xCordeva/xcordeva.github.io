@@ -3,9 +3,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faRocket } from '@fortawesome/free-solid-svg-icons'
 import { useForm, ValidationError } from '@formspree/react';
 import { useState, useEffect } from 'react';
-
+import useAddClasses from '../Custom Hooks/useAddClasses'
 
 export default function Contact() {
+
+    useAddClasses('contact-h1')
+    useAddClasses('contact-h2')
 
     const [messageSent, setMessageSent] = useState(false)
     const [showThanks, setShowThanks] = useState(false)
@@ -18,7 +21,7 @@ export default function Contact() {
 
             setTimeout(() => {
                 setSlideOut(true)
-            }, 1000)
+            }, 1500)
 
             setTimeout(() => {
                 setShowThanks(true)
@@ -29,13 +32,13 @@ export default function Contact() {
     
   return ( 
     <div className='contact'>
-        <h1>Contact</h1>
+        <h1 id='contact-h1' className='floaty'>Contact</h1>
         {showThanks ? (
             <div className="thank-you">
             <h1>Thank you for reaching out. I'll get back to you soon!</h1>
             </div>
         ) : (
-            <h2>Send Me an Email!</h2>
+            <h2 id='contact-h2' className='floaty'>Send me an email!</h2>
         )}
         <div className="contact-container">
             <div 

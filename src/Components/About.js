@@ -12,8 +12,8 @@ export default function About() {
         <div className="about-details">
           <h1>Hi, I am</h1>
           <h1 id='my-name' className='floaty'>Ahmed  AbdElAal</h1>
-          <h2>I am a Frontend Developer</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime maiores magni aspernatur id dignissimos nihil laboriosam, quasi adipisci modi reiciendis? Quam quis id officia voluptatibus omnis, fuga dolorum non aperiam maiores debitis dolorem eius tempore dolor dignissimos voluptate voluptas, corrupti corporis quae. A nostrum esse cum quod, nobis blanditiis odit.</p>
+          <h2>A Frontend Developer</h2>
+          <p>I am a self-taught software engineer, full-time coder, problem-solver, and professional Googler. I get my dopamine rush turning challenges into opportunities, always learning and gaining more in the software world. I spend most of my time immersed in the world of programming to become a better developer. Let's explore the endless possibilities together!</p>
           <button>Check My Resume</button>
         </div>
         <div className="about-pic">

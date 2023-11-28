@@ -20,7 +20,7 @@
     transform: scale(1);
   }
 }
-@keyframes spaceShipx {
+@keyframes spaceShip {
   0% {
     transform: translateX(0%);
   }
@@ -118,26 +118,21 @@
 }
 .stars span{
   position: absolute;
-  top:10%;
-  right:10%;
   width: 3px;
   height: 3px;
   background: #fff;
   border-radius: 50%;
   box-shadow: 0 0 0 3px rgba(255,255,255,0.1),0 0 0 8px rgba(255,255,255,0.1),0 0 20px rgba(255,255,255,0.1);
-  animation: animate 10s linear infinite;
+  animation: animate 15s linear infinite;
 }
 .stars span::before{
   content:'';
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
   width: 250px;
   height: 1px;
   background: linear-gradient(90deg,#fff,transparent);
 }
-@keyframes animate
-{
+@keyframes animate{
     0%
     {
         transform: rotate(315deg) translateX(0);
@@ -352,4 +347,29 @@ span:nth-child(9){
     .space-ship img{
       width: 60%;
     }
+    .space-ship{
+      margin-top: 40%;
+    }
+    .stars{
+      transform: translateX(40%);
+    }
 }
+@media (max-width:800px){
+    .space-ship{
+      margin-top: 60%;
+    }
+}
+@media (max-width:600px){
+  .stars{
+    transform: translateX(60%);
+  }
+}
+@media (max-width:400px){
+    .space-ship{
+      margin-top: 110%;
+    }
+    .stars{
+      transform: translateX(80%);
+    }
+}
+
