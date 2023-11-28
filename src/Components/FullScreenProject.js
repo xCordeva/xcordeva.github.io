@@ -28,15 +28,15 @@ export default function FullScreenProject() {
             <h5 key={tagIndex}>{tag}</h5>
           ))}
         </div>
-        <h4>{project.title}</h4>
+        <h2>{project.title}</h2>
         <h5 className='projec-date'>{project.date}</h5>
-        <p>{project.fullDetails}</p>
+        <p>{project.details}</p>
         <div className="project-links">
-          <a href="#"className="link-project">
+          <a href={`${project.githubLink}`} target='_blank' className="link-project">
           <FontAwesomeIcon icon={faGithub}/>
             View Code
           </a>
-          <a href="#"className="link-project">
+          <a href={`${project.liveLink}`} target='_blank' className="link-project">
             <FontAwesomeIcon icon={faTowerBroadcast} />
             View Live App
           </a>

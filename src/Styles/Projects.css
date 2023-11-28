@@ -4,7 +4,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 10% ;
+    margin-bottom: 10%;
+    position: relative;
+    max-width: 1400px;
 }
 .projects h1{
     font-size: 3rem;
@@ -32,6 +34,14 @@
     transition: all 0.5s ease-in-out;
     animation: float 3s ease-in-out infinite;
 }
+.project-details{
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-align: left;
+}
 
 .project:hover{
     scale: 1.05;
@@ -52,32 +62,35 @@
 .projec-date{
     margin: 0;
 }
-.projects img{
+.projects-contianer img{
     width: 100%;
     border-radius: 15px;
     border: 1px solid black;
+    margin-bottom: 15px;
 }
-h4{
-    margin: 0 0 10px 0;
+h2{
+    margin: 10px 0 10px 0;
 }
 h5{
     color: grey;
-    /* margin:0; */
 }
 .tags{
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
 }
 .tags h5{
     background-color: hsl(0, 0%, 75%);
-    margin-right: 10px;
-    padding: 7px;
+    margin:0 10px 0 0;
+    padding: 5px;
     border-radius: 7px;
     color: #000044;
+    white-space: nowrap;
 }
 
 /*Full Screen Project*/
 .full-screen {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-color: hsla(0, 0%, 0%, 0.7);
     z-index: 9999;
@@ -89,6 +102,7 @@ h5{
     justify-content: center;
     overflow-y: auto;
     overflow-x: hidden;
+    
   }
   /*Needs lots of adjustments for smaller screens*/
   .fullscreen-project {
@@ -100,32 +114,23 @@ h5{
     max-width: 800px;
     margin: 50px 0;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
   }
   
   .close-icon {
     cursor: pointer;
     position: absolute;
-    top: 10px;
-    right: 25px;
-  }
-  .close-icon:hover {
-    animation: rotate 1s ease ;
-  }
-  @keyframes rotate {
-    0%{
-        transform: rotate(0);
-    }
-    50%{
-        transform: rotate(180deg);
-    }
-    100%{
-        transform: rotate(0);
-    }
+    transform: translate(-190%, 50%);
   }
   .project-links {
     display: flex;
     justify-content: space-around;
     margin: 20px 0;
+    width: 100%;
+    align-self: center;
   }
   
 .link-project{
@@ -136,7 +141,6 @@ h5{
     width: 40%;
     white-space: nowrap;
     height: 50px;
-    padding: 10px 20px;
     border-radius: 50px;
     text-decoration: none;
     font-weight: 1000;
@@ -158,4 +162,101 @@ h5{
     color: #000044;
     font-size: 25px;
     margin-right: 10px;
+}
+
+.rocket{
+    width: 100%;
+    top: 10%;
+    position: absolute;
+    z-index: -99;
+}
+.rocket img{
+    width: 20%;
+    animation: rocket 50s linear infinite;
+}
+
+@keyframes rocketx {
+    0% {
+      transform: translateX(0%) translateY(0%) rotate(20deg);
+    }
+    5% {
+      transform: translateX(100%) translateY(-10%) rotate(30deg);
+    }
+    10% {
+      transform: translateX(200%) translateY(-20%) rotate(40deg);
+    }
+    15% {
+      transform: translateX(300%) translateY(-30%) rotate(50deg);
+    }
+    20% {
+      transform: translateX(400%) translateY(-40%) rotate(60deg);
+    }
+    25% {
+      transform: translateX(400%) translateY(-30%) rotate(180deg);
+    }
+    30% {
+      transform: translateX(300%) translateY(00%) rotate(190deg);
+    }
+    35% {
+      transform: translateX(200%) translateY(10%)  rotate(200deg);
+    }
+    40% {
+      transform: translateX(100%) translateY(20%)  rotate(210deg);
+    }
+    45% {
+      transform: translateX(0%) translateY(30%)  rotate(220deg);
+    }
+    50% {
+      transform: translateX(-100%) translateY(40%)  rotate(230deg);
+    }
+    55% {
+      transform: translateX(-200%) translateY(50%)  rotate(240deg);
+    }
+    60% {
+      transform: translateX(-300%) translateY(60%)  rotate(240deg);
+    }
+    65% {
+      transform: translateX(-400%) translateY(70%)  rotate(250deg);
+    }
+    70% {
+      transform: translateX(-500%) translateY(70%)  rotate(250deg);
+    }
+    75% {
+      transform: translateX(-500%) translateY(60%)  rotate(50deg);
+    }
+    80% {
+      transform: translateX(-400%) translateY(50%)  rotate(40deg);
+    }
+    85% {
+      transform: translateX(-300%) translateY(40%)  rotate(30deg);
+    }
+    90% {
+      transform: translateX(-200%) translateY(30%)  rotate(20deg);
+    }
+    95% {
+      transform: translateX(-100%) translateY(20%)  rotate(10deg);
+    }
+    100% {
+      transform: translateX(00%) translateY(0%)  rotate(20deg);
+    }
+  }
+
+
+@media (max-width:580px) {
+  .project-links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .fullscreen-project {
+    top: 5%;
+  }
+  .link-project{
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .link-project svg{
+    font-size: 20px;
+  }
 }

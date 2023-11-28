@@ -22,7 +22,7 @@ export default function Contact() {
 
             setTimeout(() => {
                 setShowThanks(true)
-            }, 2000)
+            }, 2500)
         }
     }, [state.succeeded]);
 
@@ -38,15 +38,21 @@ export default function Contact() {
             <h2>Send Me an Email!</h2>
         )}
         <div className="contact-container">
-            <div className={`env ${slideOut ? 'message-sent-full-env' : ''}`}>
+            <div 
+            className={`env ${slideOut ? 'message-sent-full-env' : ''}`}
+            style={{display: `${showThanks ? 'none': ''}`,}}
+            >
                 <img className={`env-base ${messageSent ? 'message-sent' : ''}`}
                 src={require(`../images/env-open-nocover.png`)} alt="" />
                 <img className={`env-back ${messageSent ? 'message-sent' : ''}`} src={require(`../images/env-back.png`)} alt="" />
                 <img className={`env-cover ${messageSent ? 'message-sent-cover' : ''}`} src={require(`../images/env-cover.png`)} alt="" />
             </div>
-            <form className={`contact-form 
+            <form 
+            className={`contact-form 
             ${messageSent ? 'message-sent-form' : ''}
-            ${slideOut ? 'message-sent-full-form' : ''}`} onSubmit={handleSubmit}>
+            ${slideOut ? 'message-sent-full-form' : ''}`} 
+            onSubmit={handleSubmit}
+            >
                 <input type="text" name="name" id="name" placeholder="Your name (e.g., John Doe)"></input>
                 <input type="email" name="email" id="email" placeholder="Your email (e.g., yourname@example.com)" required></input>
                 <ValidationError 

@@ -17,7 +17,15 @@ export default function About() {
           <button>Check My Resume</button>
         </div>
         <div className="about-pic">
-          <img src={require(`../images/me.jpg`)} alt="picture-of-me-sitting-on-the-nile" loading='lazy'/>
+          <img src={require(`../images/me.jpg`)} alt="me-sitting-on-the-nile" loading='lazy'/>
+          <div className="stars">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
         <div className="space-ship">
           <img src={require(`../images/space-ship.gif`)}  alt="" />

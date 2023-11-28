@@ -35,16 +35,19 @@ export default function Projects() {
             <img src={project.image}  alt="screen-shot-of-project" />
             <div className="tags">
             {project.tags.map((tag)=>(
-              <h5>{tag}</h5>
+              <h5 key={tag}>{tag}</h5>
             ))}
             </div>
-            <h4>{project.title}</h4>
+            <h2>{project.title}</h2>
             <h5 className='projec-date'>{project.date}</h5>
-            <p>{project.shortDetails}</p>
+            <p className='project-details'>{project.details}</p>
           </div>
         ))}
         <FullScreenProject />
       </div>
+      <div className="rocket">
+          <img src={require(`../images/rocket.gif`)}  alt="rocket" />
+        </div>
     </div>
   )
 }
