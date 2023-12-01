@@ -45,8 +45,8 @@ Welcome to my portfolio! This project is a showcase of my skills, projects, and 
 
 To run this portfolio locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/rishavchanda/rishav-chanda-portfolio.git`
-2. Navigate to the project directory: `cd rishav-chanda-portfolio`
+1. Clone the repository: `git clone https://github.com/xCordeva/xcordeva.github.io.git`
+2. Navigate to the project directory: `cd xcordeva.github.io`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm start`
 5. Open your browser and visit: [http://localhost:3000](http://localhost:3000)
