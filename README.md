@@ -57,5 +57,5 @@ Use the navigation menu to explore, Dive into the About Me section for insights 
 
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://github.com/xCordeva/xcordeva.github.io/blob/main/LICENSE).
 
