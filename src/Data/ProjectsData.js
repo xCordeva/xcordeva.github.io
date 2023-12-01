@@ -13,7 +13,7 @@ export const projectsData = [
       tags: ['React JS','Firebase', 'CSS'],
       title: 'Interactive Comment Section',
       date: 'October, 2023',
-      details: 'This React project simulates a dynamic comments section with features such as a voting system, comment options like editing and deleting, and the ability to reply to comments. It is also connected to a firebase server so anyone with the site link should be able to interact as if he is the current user. It also shows real-time updates to make the users experince as real as possible.',
+      details: 'This is a CRUD React project it simulates a dynamic comments section with features such as a voting system, comment options like editing and deleting, and the ability to reply to comments. It is also connected to a firebase server so anyone with the site link should be able to interact as if he is the current user. It also shows real-time updates to make the users experince is as real as possible.',
       liveLink: 'https://xcordeva.github.io/interactive-comments-section-FrontendmentorChallenges/',
       githubLink: 'https://github.com/xCordeva/interactive-comments-section-FrontendmentorChallenges',
     },

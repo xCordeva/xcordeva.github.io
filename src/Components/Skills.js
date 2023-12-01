@@ -9,7 +9,7 @@ export default function Skills() {
     <div className="skills-container">
 
       <h1 id='skills-h1' className='floaty'>Skills</h1>
-      <h3>Some of the skills that I have used and implemented on the projects I have made</h3>
+      <h3>Some of the skills that I have used and implemented on the projects I have made.</h3>
 
       <div className="skills">
 

@@ -15,7 +15,7 @@ export default function About() {
           <h1 id='my-name' className='floaty'>Ahmed  AbdElAal</h1>
           <h2>A Frontend Developer</h2>
           <p>I am a self-taught software engineer, full-time coder, problem-solver, and professional Googler. I get my dopamine rush turning challenges into opportunities, always learning and gaining more in the software world. I spend most of my time immersed in the world of programming to become a better developer. Let's explore the endless possibilities together!</p>
-          <button>Check My Resume</button>
+          <a href="https://drive.google.com/file/d/1Dtmq9IbCIEr30aFA9WhrifPgOnWKCZtd/view" target='_blank'><button>Check My Resume</button></a>
         </div>
 
         <div className="about-pic">
