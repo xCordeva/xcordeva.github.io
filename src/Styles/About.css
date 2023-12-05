@@ -311,7 +311,16 @@
     transform: translate(0%, -15%) rotate(9deg);
 }
 
-
+@media (max-height:700px){
+  .about{
+    top: 50px;
+  }
+}
+@media (max-height:550px){
+  .about{
+    top: 70px;
+  }
+}
 @media (max-width:1000px){
     .about{
       flex-direction: column-reverse;
