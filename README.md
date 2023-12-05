@@ -3,7 +3,7 @@
 Welcome to my portfolio! This project is a showcase of my skills, projects, and experiences as a frontend developer.
 
 ## Links
-**Weblink:** [Live Website](https://xcordeva.github.io/)
+[Live Website](https://xcordeva.github.io/)
 
 ### Desktop Version
 ![](./full-page-screenshot.jpg)
