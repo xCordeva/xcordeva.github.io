@@ -257,7 +257,7 @@ h5 {
     font-size: 20px;
   }
 }
-@media (max-height: 750px) {
+@media (max-height: 850px) {
   .fullscreen-project {
     top: 10%;
     align-self: flex-start;
