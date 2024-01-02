@@ -1,92 +1,127 @@
 export const projectsData = [
-    {
-      image: require(`../Data/projects-images/my-personal-blog.jpg`),
-      tags: ['React JS','Firebase', 'CSS'],
-      title: 'My Personal Blog',
-      date: 'November, 2023',
-      details: 'The Cordeva Blog is a personal blogging platform built using React. It allows users to explore blog posts, read articles, and engage with blog posts through comments, and switch between light and dark modes for a personalized experience.',
-      liveLink: 'https://xcordeva.github.io/my-blog-React-JS/',
-      githubLink: 'https://github.com/xCordeva/my-blog-React-JS',
-    },
-    {
-      image: require(`../Data/projects-images/interactive-comments.PNG`),
-      tags: ['React JS','Firebase', 'CSS'],
-      title: 'Interactive Comment Section',
-      date: 'October, 2023',
-      details: "This is a CRUD React project it simulates a dynamic comments section with features such as a voting system, comment options like editing and deleting, and the ability to reply to comments. It is also connected to a firebase server so anyone with the site link should be able to interact as if he is the current user. It also shows real-time updates to make the user's experince is as real as possible.",
-      liveLink: 'https://xcordeva.github.io/interactive-comments-section-FrontendmentorChallenges/',
-      githubLink: 'https://github.com/xCordeva/interactive-comments-section-FrontendmentorChallenges',
-    },
-    {
-      image: require(`../Data/projects-images/countries-api.jpg`),
-      tags: ['HTML','CSS', 'JavaScript', 'REST API'],
-      title: 'Countries API',
-      date: 'September, 2023',
-      details: 'This is a web application that utilizes the REST Countries API. It implements fetching and displaying data dynamically and also has search and filter functionalities to reach the desired country easily. Additionally, I learned to implement a color theme switcher using CSS variables for a visually appealing design.',
-      liveLink: 'https://xcordeva.github.io/countries-api-with-theme-switcher-FrontendmentorChallenges/',
-      githubLink: 'https://github.com/xCordeva/countries-api-with-theme-switcher-FrontendmentorChallenges',
-    },
-    {
-      image: require(`../Data/projects-images/e-commerce-page.jpg`),
-      tags: ['HTML', 'CSS', 'JavaScript'],
-      title: 'E-commerce Product Page',
-      date: 'September, 2023',
-      details: 'A responsive e-commerce website with a focus on optimal layout across various screen sizes. Implemented interactive elements, including a lightbox gallery, enhancing user engagement. User can switch product images, add items to the cart, remove items from cart, and manage their selections.',
-      liveLink: 'https://xcordeva.github.io/ecommerce-product-page-FrontendmentorChallenges/',
-      githubLink: 'https://github.com/xCordeva/ecommerce-product-page-FrontendmentorChallenges',
-    },
-    {
-      image: require(`../Data/projects-images/multi-step-form.jpg`),
-      tags: ['HTML', 'CSS', 'JavaScript'],
-      title: 'Multi Step Form',
-      date: 'September, 2023',
-      details: 'In this project, I created a user-friendly web application designed for data collection. The structured form interface guides users through a step-by-step progression, allowing them to navigate forward and backward to update selections. The responsive design ensures an optimal layout across different screen sizes. Notable features include real-time feedback, form validation, and a summary of selections on the final step.',
-      liveLink: 'https://xcordeva.github.io/multi-step-form-FrontendmentorChallenges/',
-      githubLink: 'https://github.com/xCordeva/multi-step-form-FrontendmentorChallenges',
-    },
-    {
-      image: require(`../Data/projects-images/age-calculator.jpg`),
-      tags: ['HTML', 'CSS', 'JavaScript'],
-      title: 'Age Calculator App',
-      date: 'September, 2023',
-      details: "A straightforward web application to calculate a user's age. The user-friendly interface allows users to input a birthdate, and the app calculates and displays the age in years, months, and days. It includes an error handler to ensure accurate results, flagging issues like empty fields or invalid dates. I gained a deep understanding of date manipulation in JavaScript, tackling challenges such as leap years and varying month lengths.",
-      liveLink: 'https://xcordeva.github.io/age-calculator-app-FrontendmentorChallenges/',
-      githubLink: 'https://github.com/xCordeva/age-calculator-app-FrontendmentorChallenges',
-    },
-    {
-      image: require(`../Data/projects-images/tip-calculator.jpg`),
-      tags: ['HTML', 'CSS', 'JavaScript'],
-      title: 'Tip Calculator App',
-      date: 'September, 2023',
-      details: "This project enables users to calculate tips and total costs based on their bill amount, chosen tip percentage, and the number of people sharing the bill. The app provides real-time calculations to make the user's experience is as fast and easy as possible.",
-      liveLink: 'https://xcordeva.github.io/tip-calculator-app-FrontendmentorChallenges/',
-      githubLink: 'https://github.com/xCordeva/tip-calculator-app-FrontendmentorChallenges',
-    },
-    {
-      image: require(`../Data/projects-images/bootstrap-education-website.jpg`),
-      tags: ['Bootstrap', 'HTML', 'CSS'],
-      title: 'Bootstrap Education Website',
-      date: 'September, 2023',
-      details: 'This Bootstrap Blockchain Education Website serves as a hands-on learning experience for creating a responsive and visually appealing web design. Focused on blockchain technology, the project is a static website created using Bootstrap, HTML, and CSS. Key features include a responsive design for optimal viewing on different devices, easy navigation, and interactive components. It is important to note that this educational project is for display purposes only and does not contain real data.',
-      liveLink: 'https://xcordeva.github.io/Bootstrap-Blockchain-Education-Website/',
-      githubLink: 'https://github.com/xCordeva/bootstrap-blockchain-education-website',
-    },
-    {
-      image: require(`../Data/projects-images/js-amazon.jpg`),
-      tags: ['JavaScript', 'HTML', 'CSS'],
-      title: 'JavaScript Amazon Clone',
-      date: 'August, 2023',
-      details: 'I take great pride in this project, as I independently implemented every dynamic feature in vanilla JavaScript, even though I used HTML and CSS from a tutorial by SuperSimpleDev. The project includes four main pages: Home, Checkout, Order, and Tracking. Features includes efficient search, interactive cart management, detailed order history, local storage to store every action the user makes, and real-time order tracking. The demo showcases these functionalities. Users can browse products, add items to the cart with real-time calculations, place orders, reorder from order history, and track deliveries using the intuitive interface.',
-      liveLink: 'https://xcordeva.github.io/javascript-amazon-project/',
-      githubLink: 'https://github.com/xCordeva/javascript-amazon-project',
-    },
-    {
-      image: require(`../Data/projects-images/rock-paper-scissors.jpg`),
-      tags: ['JavaScript', 'HTML', 'CSS'],
-      title: 'Rock Paper Scissors Game',
-      date: 'August, 2023',
-      details: "The classic Rock Paper Scissors game. With lots of features including Auto Play for hands-free fun, keyboard controls (a) for auto play and (Backspace) for score reset, real-time showing results, and score tracking. An intro message based on the user's previous game outcomes.",
-      liveLink: 'https://xcordeva.github.io/Rock-Paper-Scirssors-Game/',
-      githubLink: 'https://github.com/xCordeva/Rock-Paper-Scirssors-Game',
-    },
-  ];
+  {
+    image: require(`../Data/projects-images/calendizer.jpg`),
+    tags: ["Next JS", "React JS", "SASS", "Redux", "Firebase", "Firestore"],
+    title: "Calendizer",
+    date: "December, 2023",
+    details:
+      "Calendizer is a user-friendly online planner and organizer that helps users efficiently manage their schedules, tasks, and events. The application starts with an easy signup process, allowing users to register with an email and password or opt for a quicker Google signup. Users can explore the dynamic Calendar page, created with React Big Calendar. This section serves as a CRUD (Create, Read, Update, Delete) page, enabling users to add, edit, or remove events according to their evolving schedules. The Todo List page has the same functionality, providing a similar CRUD experience for task management. Additionally, there's a Dashboard designed to provide users with a quick glance at their day and week. This centralized space consolidates both tasks and events, offering an overview for efficient planning. Whether it's jotting down an upcoming event, managing daily tasks, or checking the Dashboard for a snapshot of your schedule, Calendizer ensures a user-friendly and organized experience.",
+    liveLink: "https://xcordeva.github.io/calendizer/",
+    githubLink: "https://github.com/xCordeva/calendizer",
+  },
+  {
+    image: require(`../Data/projects-images/my-personal-blog.jpg`),
+    tags: ["React JS", "Firebase", "CSS"],
+    title: "My Personal Blog",
+    date: "November, 2023",
+    details:
+      "The Cordeva Blog is a personal blogging platform built using React. It allows users to explore blog posts, read articles, and engage with blog posts through comments, and switch between light and dark modes for a personalized experience.",
+    liveLink: "https://xcordeva.github.io/my-blog-React-JS/",
+    githubLink: "https://github.com/xCordeva/my-blog-React-JS",
+  },
+  {
+    image: require(`../Data/projects-images/interactive-comments.PNG`),
+    tags: ["React JS", "Firebase", "CSS"],
+    title: "Interactive Comment Section",
+    date: "October, 2023",
+    details:
+      "This is a CRUD React project it simulates a dynamic comments section with features such as a voting system, comment options like editing and deleting, and the ability to reply to comments. It is also connected to a firebase server so anyone with the site link should be able to interact as if he is the current user. It also shows real-time updates to make the user's experince is as real as possible.",
+
+    liveLink:
+      "https://xcordeva.github.io/interactive-comments-section-FrontendmentorChallenges/",
+    githubLink:
+      "https://github.com/xCordeva/interactive-comments-section-FrontendmentorChallenges",
+  },
+  {
+    image: require(`../Data/projects-images/countries-api.jpg`),
+    tags: ["HTML", "CSS", "JavaScript", "REST API"],
+    title: "Countries API",
+    date: "September, 2023",
+    details:
+      "This is a web application that utilizes the REST Countries API. It implements fetching and displaying data dynamically and also has search and filter functionalities to reach the desired country easily. Additionally, I learned to implement a color theme switcher using CSS variables for a visually appealing design.",
+    liveLink:
+      "https://xcordeva.github.io/countries-api-with-theme-switcher-FrontendmentorChallenges/",
+    githubLink:
+      "https://github.com/xCordeva/countries-api-with-theme-switcher-FrontendmentorChallenges",
+  },
+  {
+    image: require(`../Data/projects-images/e-commerce-page.jpg`),
+    tags: ["HTML", "CSS", "JavaScript"],
+    title: "E-commerce Product Page",
+    date: "September, 2023",
+    details:
+      "A responsive e-commerce website with a focus on optimal layout across various screen sizes. Implemented interactive elements, including a lightbox gallery, enhancing user engagement. User can switch product images, add items to the cart, remove items from cart, and manage their selections.",
+    liveLink:
+      "https://xcordeva.github.io/ecommerce-product-page-FrontendmentorChallenges/",
+    githubLink:
+      "https://github.com/xCordeva/ecommerce-product-page-FrontendmentorChallenges",
+  },
+  {
+    image: require(`../Data/projects-images/multi-step-form.jpg`),
+    tags: ["HTML", "CSS", "JavaScript"],
+    title: "Multi Step Form",
+    date: "September, 2023",
+    details:
+      "In this project, I created a user-friendly web application designed for data collection. The structured form interface guides users through a step-by-step progression, allowing them to navigate forward and backward to update selections. The responsive design ensures an optimal layout across different screen sizes. Notable features include real-time feedback, form validation, and a summary of selections on the final step.",
+    liveLink:
+      "https://xcordeva.github.io/multi-step-form-FrontendmentorChallenges/",
+    githubLink:
+      "https://github.com/xCordeva/multi-step-form-FrontendmentorChallenges",
+  },
+  {
+    image: require(`../Data/projects-images/age-calculator.jpg`),
+    tags: ["HTML", "CSS", "JavaScript"],
+    title: "Age Calculator App",
+    date: "September, 2023",
+    details:
+      "A straightforward web application to calculate a user's age. The user-friendly interface allows users to input a birthdate, and the app calculates and displays the age in years, months, and days. It includes an error handler to ensure accurate results, flagging issues like empty fields or invalid dates. I gained a deep understanding of date manipulation in JavaScript, tackling challenges such as leap years and varying month lengths.",
+    liveLink:
+      "https://xcordeva.github.io/age-calculator-app-FrontendmentorChallenges/",
+    githubLink:
+      "https://github.com/xCordeva/age-calculator-app-FrontendmentorChallenges",
+  },
+  {
+    image: require(`../Data/projects-images/tip-calculator.jpg`),
+    tags: ["HTML", "CSS", "JavaScript"],
+    title: "Tip Calculator App",
+    date: "September, 2023",
+    details:
+      "This project enables users to calculate tips and total costs based on their bill amount, chosen tip percentage, and the number of people sharing the bill. The app provides real-time calculations to make the user's experience is as fast and easy as possible.",
+    liveLink:
+      "https://xcordeva.github.io/tip-calculator-app-FrontendmentorChallenges/",
+    githubLink:
+      "https://github.com/xCordeva/tip-calculator-app-FrontendmentorChallenges",
+  },
+  {
+    image: require(`../Data/projects-images/bootstrap-education-website.jpg`),
+    tags: ["Bootstrap", "HTML", "CSS"],
+    title: "Bootstrap Education Website",
+    date: "September, 2023",
+    details:
+      "This Bootstrap Blockchain Education Website serves as a hands-on learning experience for creating a responsive and visually appealing web design. Focused on blockchain technology, the project is a static website created using Bootstrap, HTML, and CSS. Key features include a responsive design for optimal viewing on different devices, easy navigation, and interactive components. It is important to note that this educational project is for display purposes only and does not contain real data.",
+    liveLink:
+      "https://xcordeva.github.io/Bootstrap-Blockchain-Education-Website/",
+    githubLink:
+      "https://github.com/xCordeva/bootstrap-blockchain-education-website",
+  },
+  {
+    image: require(`../Data/projects-images/js-amazon.jpg`),
+    tags: ["JavaScript", "HTML", "CSS"],
+    title: "JavaScript Amazon Clone",
+    date: "August, 2023",
+    details:
+      "I take great pride in this project, as I independently implemented every dynamic feature in vanilla JavaScript, even though I used HTML and CSS from a tutorial by SuperSimpleDev. The project includes four main pages: Home, Checkout, Order, and Tracking. Features includes efficient search, interactive cart management, detailed order history, local storage to store every action the user makes, and real-time order tracking. The demo showcases these functionalities. Users can browse products, add items to the cart with real-time calculations, place orders, reorder from order history, and track deliveries using the intuitive interface.",
+    liveLink: "https://xcordeva.github.io/javascript-amazon-project/",
+    githubLink: "https://github.com/xCordeva/javascript-amazon-project",
+  },
+  {
+    image: require(`../Data/projects-images/rock-paper-scissors.jpg`),
+    tags: ["JavaScript", "HTML", "CSS"],
+    title: "Rock Paper Scissors Game",
+    date: "August, 2023",
+    details:
+      "The classic Rock Paper Scissors game. With lots of features including Auto Play for hands-free fun, keyboard controls (a) for auto play and (Backspace) for score reset, real-time showing results, and score tracking. An intro message based on the user's previous game outcomes.",
+    liveLink: "https://xcordeva.github.io/Rock-Paper-Scirssors-Game/",
+    githubLink: "https://github.com/xCordeva/Rock-Paper-Scirssors-Game",
+  },
+];
