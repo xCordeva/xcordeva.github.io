@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.76e4fe51.css",
-    "main.js": "/static/js/main.5edf609b.js",
+    "main.css": "/static/css/main.d00790c8.css",
+    "main.js": "/static/js/main.6327192f.js",
     "static/media/space-ship.gif": "/static/media/space-ship.423067744c14187ca66b.gif",
     "static/media/me.jpg": "/static/media/me.ac6de0e02b658a73e523.jpg",
     "static/media/rocket.gif": "/static/media/rocket.580b68281fb6d2c79de2.gif",
     "static/media/js-amazon.jpg": "/static/media/js-amazon.5825f51981d30b5a7428.jpg",
     "static/media/galaxy-background.jpg": "/static/media/galaxy-background.53915dabaf945649240b.jpg",
     "static/media/my-personal-blog.jpg": "/static/media/my-personal-blog.0ff04c8e3b141ad729f8.jpg",
+    "static/media/calendizer.jpg": "/static/media/calendizer.1a543d5b727302a54c97.jpg",
     "static/media/countries-api.jpg": "/static/media/countries-api.8037664746468b6ce4ea.jpg",
     "static/media/e-commerce-page.jpg": "/static/media/e-commerce-page.7b87d1f2b38a3ddfcf4a.jpg",
     "static/media/env-open-nocover.png": "/static/media/env-open-nocover.888721ab08ac24cffd94.png",
@@ -21,11 +22,11 @@
     "static/media/tip-calculator.jpg": "/static/media/tip-calculator.a0d55e4613f0a5b7f448.jpg",
     "static/media/env-back.png": "/static/media/env-back.ad790b8af6e2e8168188.png",
     "index.html": "/index.html",
-    "main.76e4fe51.css.map": "/static/css/main.76e4fe51.css.map",
-    "main.5edf609b.js.map": "/static/js/main.5edf609b.js.map"
+    "main.d00790c8.css.map": "/static/css/main.d00790c8.css.map",
+    "main.6327192f.js.map": "/static/js/main.6327192f.js.map"
   },
   "entrypoints": [
-    "static/css/main.76e4fe51.css",
-    "static/js/main.5edf609b.js"
+    "static/css/main.d00790c8.css",
+    "static/js/main.6327192f.js"
   ]
 }
