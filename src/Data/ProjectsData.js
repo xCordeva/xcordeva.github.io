@@ -1,5 +1,23 @@
 export const projectsData = [
   {
+    image: require(`../Data/projects-images/popcorned.jpg`),
+    tags: [
+      "Next JS",
+      "React JS",
+      "SASS",
+      "Redux",
+      "TMDb API",
+      "Firebase",
+      "Firestore",
+    ],
+    title: "Popcorned",
+    date: "September, 2024",
+    details:
+      "Popcorned is a web application for movie and TV show enthusiasts to explore the latest releases, write reviews, and keep up with trending content. The app offers simple signup with either email or Google authentication. After signing in, users can create a watchlist to keep track of movies and shows they want to watch. They can also rate and review content, as well as read reviews from others. The account settings page allows users to update their profile picture, email, and password, giving them control over their account. Popcorned provides an easy-to-use platform for discovering new content and sharing opinions with others.",
+    liveLink: "https://popcorned.vercel.app/",
+    githubLink: "https://github.com/xCordeva/popcorned",
+  },
+  {
     image: require(`../Data/projects-images/calendizer.jpg`),
     tags: ["Next JS", "React JS", "SASS", "Redux", "Firebase", "Firestore"],
     title: "Calendizer",
