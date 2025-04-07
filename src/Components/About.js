@@ -22,7 +22,7 @@ export default function About() {
             endless possibilities together!
           </p>
           <a
-            href="https://drive.google.com/file/d/1CDzQ_jTG7czqJxstGDerN_Ck88CTj43S/"
+            href="https://drive.google.com/file/d/1jUCQ8EFnyOf1xc_Uvk5iBUafaBGyTUAR/"
             target="_blank"
           >
             <button>Check My Resume</button>
