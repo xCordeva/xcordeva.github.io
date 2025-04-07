@@ -1,5 +1,6 @@
 import "../Styles/About.css";
 import useAddClasses from "../Custom Hooks/useAddClasses";
+import { motion } from "framer-motion";
 
 export default function About() {
   useAddClasses("my-name");
@@ -26,7 +27,20 @@ export default function About() {
             href="https://drive.google.com/file/d/1jUCQ8EFnyOf1xc_Uvk5iBUafaBGyTUAR/"
             target="_blank"
           >
-            <button>Check My Resume</button>
+            <motion.button
+              animate={{
+                rotate: [0, -5, 5, -5, 5, 0],
+                scale: [1, 1.1, 1.1, 1.1, 1.1, 1],
+              }}
+              transition={{
+                duration: 0.7,
+                repeat: Infinity,
+                repeatDelay: 5,
+                ease: "easeInOut",
+              }}
+            >
+              Check My Resume
+            </motion.button>
           </a>
         </div>
 
