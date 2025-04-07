@@ -14,12 +14,13 @@ export default function About() {
           </h1>
           <h2>A Frontend Developer</h2>
           <p>
-            I am a self-taught software engineer, full-time coder,
-            problem-solver, and professional Googler. I get my dopamine rush
-            turning challenges into opportunities, always learning and gaining
-            more in the software world. I spend most of my time immersed in the
-            world of programming to become a better developer. Let's explore the
-            endless possibilities together!
+            Welcome to my coding playground. Bugs? Never heard of them. No
+            promises it won’t blow your mind (or your browser). <br /> I’m a
+            self-taught software engineer, full-time coder, and professional
+            Googler. I get my dopamine rush from turning bugs into features and
+            challenges into opportunities. Always learning, always building.{" "}
+            <br /> I bring clean code, creative solutions, and a passion for
+            building things that just work — no browser crashes (hopefully).
           </p>
           <a
             href="https://drive.google.com/file/d/1jUCQ8EFnyOf1xc_Uvk5iBUafaBGyTUAR/"
