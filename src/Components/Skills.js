@@ -106,7 +106,7 @@ export default function Skills() {
       </h3>
 
       <div className="skills">
-        <div className="skills-box-wraper">
+        <div className="skills-box-wrapper">
           <h1>Frontend</h1>
           <div className="skills-frontend">
             {frontendSkills.map((skill) => (
@@ -118,7 +118,7 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="skills-box-wraper">
+        <div className="skills-box-wrapper">
           <h1>Others</h1>
           <div className="skills-others">
             {otherSkills.map((skill) => (
