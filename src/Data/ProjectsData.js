@@ -1,9 +1,28 @@
 export const projectsData = [
   {
+    image: require(`../Data/projects-images/realmediagroup.jpg`),
+    tags: [
+      "Next.js",
+      "React.js",
+      "SASS",
+      "JWT",
+      "Node JS",
+      "Express.js",
+      "MongoDB",
+      "next-intl (i18n)",
+    ],
+    title: "Real Media Group",
+    date: "June, 2025",
+    details:
+      "RealMedia Group is a modern marketing agency website designed to showcase services, share insights, and connect with clients across multiple regions. The entire site is fully multilingual, offering content in four languages to reach a broad international audience. It features a clean, professional design with smooth animations and a responsive layout that works seamlessly on any device. Visitors can explore dynamic pages highlighting the agency’s expertise, read blog articles and news updates, and easily get in touch through integrated contact options. An intuitive admin panel allows authorized users to manage content and publish updates in real time. Overall, the website combines polished visuals with practical tools to support RealMedia Group’s marketing and communication goals.",
+    liveLink: "https://www.realmediagroup.com.eg/",
+    githubLink: null,
+  },
+  {
     image: require(`../Data/projects-images/popcorned.jpg`),
     tags: [
-      "Next JS",
-      "React JS",
+      "Next.js",
+      "React.js",
       "SASS",
       "Redux",
       "TMDb API",
@@ -19,7 +38,7 @@ export const projectsData = [
   },
   {
     image: require(`../Data/projects-images/calendizer.jpg`),
-    tags: ["Next JS", "React JS", "SASS", "Redux", "Firebase", "Firestore"],
+    tags: ["Next.js", "React.js", "SASS", "Redux", "Firebase", "Firestore"],
     title: "Calendizer",
     date: "December, 2023",
     details:
@@ -29,7 +48,7 @@ export const projectsData = [
   },
   {
     image: require(`../Data/projects-images/my-personal-blog.jpg`),
-    tags: ["React JS", "Firebase", "CSS"],
+    tags: ["React.js", "Firebase", "CSS"],
     title: "My Personal Blog",
     date: "November, 2023",
     details:
@@ -38,12 +57,12 @@ export const projectsData = [
     githubLink: "https://github.com/xCordeva/my-blog-React-JS",
   },
   {
-    image: require(`../Data/projects-images/interactive-comments.PNG`),
-    tags: ["React JS", "Firebase", "CSS"],
+    image: require(`../Data/projects-images/interactive-comments.jpg`),
+    tags: ["React.js", "Firebase", "CSS"],
     title: "Interactive Comment Section",
     date: "October, 2023",
     details:
-      "This is a CRUD React project it simulates a dynamic comments section with features such as a voting system, comment options like editing and deleting, and the ability to reply to comments. It is also connected to a firebase server so anyone with the site link should be able to interact as if he is the current user. It also shows real-time updates to make the user's experince is as real as possible.",
+      "This is a CRUD React project it simulates a dynamic comments section with features such as a voting system, comment options like editing and deleting, and the ability to reply to comments. It is also connected to a firebase server so anyone with the site link should be able to interact as if he is the current user. It also shows real-time updates to make the user's experience is as real as possible.",
 
     liveLink:
       "https://xcordeva.github.io/interactive-comments-section-FrontendmentorChallenges/",
