@@ -24,8 +24,9 @@ export default function About() {
             building things that just work — no browser crashes (hopefully).
           </p>
           <a
-            href="https://drive.google.com/file/d/1jUCQ8EFnyOf1xc_Uvk5iBUafaBGyTUAR/"
+            href="https://drive.google.com/file/d/18kc2gomLNZ4jUFOOlLVisujxCjHnySPY/view?usp=sharing"
             target="_blank"
+            rel="noreferrer"
           >
             <motion.button
               animate={{
