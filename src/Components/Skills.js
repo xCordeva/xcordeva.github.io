@@ -3,12 +3,22 @@ import useAddClasses from "../Custom Hooks/useAddClasses";
 
 const frontendSkills = [
   {
-    name: "Next JS",
+    name: "JavaScript",
+    logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+    alt: "javascript",
+  },
+  {
+    name: "TypeScript",
+    logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+    alt: "typescript",
+  },
+  {
+    name: "Next.js",
     logo: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
     alt: "nextjs",
   },
   {
-    name: "React JS",
+    name: "React.js",
     logo: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
     alt: "react",
   },
@@ -18,14 +28,14 @@ const frontendSkills = [
     alt: "redux",
   },
   {
-    name: "JavaScript",
-    logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
-    alt: "javascript",
+    name: "Zustand",
+    logo: "https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg",
+    alt: "Zustand",
   },
   {
-    name: "TypeScript",
-    logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
-    alt: "typescript",
+    name: "Tailwind CSS",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+    alt: "Tailwind",
   },
   {
     name: "CSS",
@@ -49,6 +59,33 @@ const frontendSkills = [
   },
 ];
 
+const backendSkills = [
+  {
+    name: "Node.js",
+    logo: "https://cdn.worldvectorlogo.com/logos/nodejs-2.svg",
+    alt: "Node",
+  },
+  {
+    name: "Express.js",
+    logo: "https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png",
+    alt: "Express",
+  },
+  {
+    name: "Firebase",
+    logo: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+    alt: "Firebase",
+  },
+  {
+    name: "Supabase",
+    logo: "https://img.icons8.com/color/512/supabase.png",
+    alt: "Supabase",
+  },
+  {
+    name: "JWT",
+    logo: "https://cdn.worldvectorlogo.com/logos/jwt-3.svg",
+    alt: "JWT",
+  },
+];
 const otherSkills = [
   {
     name: "GitHub",
@@ -61,14 +98,19 @@ const otherSkills = [
     alt: "git",
   },
   {
+    name: "MongoDB",
+    logo: "https://d2lgmzy8vjj79z.cloudfront.net/mongodb.svg",
+    alt: "MongoDB",
+  },
+  {
+    name: "Jira",
+    logo: "https://cdn.worldvectorlogo.com/logos/jira-1.svg",
+    alt: "Jira",
+  },
+  {
     name: "Figma",
     logo: "https://cdn4.iconfinder.com/data/icons/logos-brands-in-colors/3000/figma-logo-512.png",
     alt: "figma",
-  },
-  {
-    name: "Firebase",
-    logo: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-    alt: "firebase",
   },
   {
     name: "Postman",
@@ -110,6 +152,18 @@ export default function Skills() {
           <h1>Frontend</h1>
           <div className="skills-frontend">
             {frontendSkills.map((skill) => (
+              <div className="skill-box" key={skill.name}>
+                <img src={skill.logo} alt={skill.alt} />
+                <p>{skill.name}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="skills-box-wrapper">
+          <h1>Backend</h1>
+          <div className="skills-frontend">
+            {backendSkills.map((skill) => (
               <div className="skill-box" key={skill.name}>
                 <img src={skill.logo} alt={skill.alt} />
                 <p>{skill.name}</p>

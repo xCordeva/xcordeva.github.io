@@ -13,6 +13,8 @@
 .skills {
   display: flex;
   justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
   margin: 3% 0;
   gap: 5%;
 }
@@ -23,7 +25,7 @@
   background-color: transparent;
   border: 3px solid #44008b;
   box-shadow: 0 0 20px#44008b;
-  width: 45%;
+  width: 100%;
   max-width: 500px;
   padding: 0 2.5% 2.5% 2.5%;
   border-radius: 10px;
