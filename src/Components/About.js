@@ -24,7 +24,7 @@ export default function About() {
             building things that just work — no browser crashes (hopefully).
           </p>
           <a
-            href="https://drive.google.com/file/d/18kc2gomLNZ4jUFOOlLVisujxCjHnySPY/view?usp=sharing"
+            href="https://drive.google.com/file/d/1xWMlER9WE-aJ-x6JQW5T_icJ2-4DzUq4/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
