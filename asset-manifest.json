@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1c64b5b4.css",
-    "main.js": "/static/js/main.1eed9c63.js",
+    "main.js": "/static/js/main.f602f3a6.js",
     "static/media/space-ship.gif": "/static/media/space-ship.423067744c14187ca66b.gif",
     "static/media/realmediagroup.jpg": "/static/media/realmediagroup.aa64d9c9c5632cac8d61.jpg",
     "static/media/me.jpg": "/static/media/me.ac6de0e02b658a73e523.jpg",
@@ -13,6 +13,7 @@
     "static/media/calendizer.jpg": "/static/media/calendizer.1a543d5b727302a54c97.jpg",
     "static/media/countries-api.jpg": "/static/media/countries-api.8037664746468b6ce4ea.jpg",
     "static/media/e-commerce-page.jpg": "/static/media/e-commerce-page.7b87d1f2b38a3ddfcf4a.jpg",
+    "static/media/fit-it-on.jpg": "/static/media/fit-it-on.1bcd19ddd7bdc50ca1d5.jpg",
     "static/media/env-open-nocover.png": "/static/media/env-open-nocover.888721ab08ac24cffd94.png",
     "static/media/bootstrap-education-website.jpg": "/static/media/bootstrap-education-website.dfff49eaca6d012cdc48.jpg",
     "static/media/rock-paper-scissors.jpg": "/static/media/rock-paper-scissors.c1537b31518642888461.jpg",
@@ -25,10 +26,10 @@
     "static/media/env-back.png": "/static/media/env-back.ad790b8af6e2e8168188.png",
     "index.html": "/index.html",
     "main.1c64b5b4.css.map": "/static/css/main.1c64b5b4.css.map",
-    "main.1eed9c63.js.map": "/static/js/main.1eed9c63.js.map"
+    "main.f602f3a6.js.map": "/static/js/main.f602f3a6.js.map"
   },
   "entrypoints": [
     "static/css/main.1c64b5b4.css",
-    "static/js/main.1eed9c63.js"
+    "static/js/main.f602f3a6.js"
   ]
 }
