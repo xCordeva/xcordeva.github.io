@@ -118,7 +118,7 @@ const otherSkills = [
     alt: "Postman",
   },
   {
-    name: "Jest JS",
+    name: "Jest.js",
     logo: "https://www.jetbrains.com/guide/assets/jest-5ee71e9b.svg",
     alt: "Jest JS",
   },

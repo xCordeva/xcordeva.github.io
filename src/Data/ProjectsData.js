@@ -1,5 +1,22 @@
 export const projectsData = [
   {
+    image: require(`../Data/projects-images/fit-it-on.jpg`),
+    tags: [
+      "Next.js",
+      "React.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Supabase",
+      "Zustand",
+    ],
+    title: "Fit It On",
+    date: "July, 2025",
+    details:
+      "Fit It On is an AI-powered virtual try-on web app that allows users to visualize how clothing items would look on them before making a purchase. The app offers a clean, modern interface where users can upload a photo of themselves and any clothing image to generate a realistic try-on result using advanced AI models. With privacy and usability in mind, each user's uploads and results are securely stored and accessible through a personalized gallery. The app supports a tiered access system—offering 3 free trials without requiring signup, and premium plans for unlimited use via Lemon Squeezy integration. A responsive layout ensures a smooth experience across all devices, while secure authentication and usage tracking enhance both reliability and performance.",
+    liveLink: "https://www.fititon.app/",
+    githubLink: null,
+  },
+  {
     image: require(`../Data/projects-images/realmediagroup.jpg`),
     tags: [
       "Next.js",
